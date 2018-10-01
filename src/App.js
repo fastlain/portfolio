@@ -3,6 +3,7 @@ import Header from './Header';
 import Banner from './Banner';
 import About from './About';
 import ProjectsContainer from './ProjectsContainer';
+import Contact from './Contact';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <Banner />
         <About />
         <ProjectsContainer />
+        <Contact />
       </div>
     );
   }
