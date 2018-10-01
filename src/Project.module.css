@@ -1,13 +1,18 @@
-.projTitle {
+.title {
     text-align: center;
 }
 
-.projBtnCont {
+.btnCont {
     margin: 30px auto;
     text-align: center;
 }
 
-.projBtn {
+.btn {
     display: inline-block;
     margin: 0 15px;
+}
+
+.para {
+    max-width: 600px;
+    margin: 20px auto;
 }
