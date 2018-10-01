@@ -1,0 +1,9 @@
+.pageHeader {
+    border-bottom: 2px solid black;
+}
+
+.navLink {
+    margin: 5px 15px;
+    display: inline-block;
+}
+
