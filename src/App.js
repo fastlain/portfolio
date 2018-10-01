@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Banner from './Banner';
 import About from './About';
-import Project from './Project';
+import ProjectsContainer from './ProjectsContainer';
 
 class App extends Component {
   render() {
@@ -11,9 +11,7 @@ class App extends Component {
         <Header />
         <Banner />
         <About />
-        <Project />
-        <Project />
-        <Project />
+        <ProjectsContainer />
       </div>
     );
   }
