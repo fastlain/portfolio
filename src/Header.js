@@ -5,7 +5,7 @@ class Header extends Component {
   render() {
     return (
       <header className={styles.pageHeader}>
-        <nav>
+        <nav className={styles.flex}>
           <a href='#' className={styles.navLink}>ABOUT</a>
           <a href='#' className={styles.navLink}>PROJECTS</a>
           <a href='#' className={styles.navLink}>CONTACT</a>
