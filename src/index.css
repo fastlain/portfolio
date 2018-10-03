@@ -16,6 +16,11 @@ body {
   background: darkslategray;
 }
 
+section {
+  border-bottom: 2px solid black;
+  padding: 25px 0 50px;
+}
+
 h1, h2 {
   font-family: 'PT Sans', sans-serif;
   text-align: center;
@@ -40,8 +45,4 @@ h3 {
     h3 {
       font-size: 24px;
   }
-}
-
-section {
-  border-bottom: 2px solid black;
 }
