@@ -1,4 +1,28 @@
-.contact {
+.contactSection {
     text-align: center;
-    margin: 10px;
+}
+
+.contactList {
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    margin: 10px auto;
+    list-style: none;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    margin: 0 10px;
 }
