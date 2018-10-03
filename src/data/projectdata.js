@@ -1,6 +1,6 @@
 // This file contains project information to be imported by React components 
 
-export default projects [
+export default projectData [
     {
         title: "Survey Says",
         description: "Survey Says uses the experimental \"Web Speech API\" to introduce voice-to-text to a fun and light-hearted game. Based on the ever-popular Family Feud game show, this responsive full-stack web application also incorporates user authentication, continuous integration & testing, and a Mongo database for storing questions/answers and user data.",
