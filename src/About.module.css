@@ -1,18 +1,20 @@
-.para {
-    max-width: 600px;
-    margin: 20px auto;
+.imgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto; 
+    text-align: center;
 }
 
 .headshot {
+    width: 100%;
+    max-width: 300px;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    display: block;
-    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
 .flexRow {
-    width: 80%;
     max-width: 900px;
     margin: 0 auto;
 }
@@ -20,8 +22,8 @@
 .flexCol {
     display: flex;
     flex-direction: column;
-    width: 70%;
-    max-width: 700px;
+    width: 80%;
+    max-width: 450px;
     margin: 0 auto;
 }
 
@@ -34,6 +36,10 @@
 @media (min-width: 800px) {
     .flexRow {
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
+    }
+
+    .flexCol {
+        max-width: 700px;
     }
 }

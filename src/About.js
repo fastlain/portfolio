@@ -11,7 +11,9 @@ class About extends Component {
             <section id="about">
                 <h2>ABOUT</h2>
                 <div className={styles.flexRow}>
-                    <img className={styles.headshot} src={data.headshot} alt="Michael Allain headshot"/>
+                    <div className={styles.imgContainer}>    
+                        <img className={styles.headshot} src={data.headshot} alt="Michael Allain headshot"/>
+                    </div>
                     <div className={styles.flexCol}>
                         {paragraphs}
                     </div>
