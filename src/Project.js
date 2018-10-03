@@ -2,17 +2,22 @@ import React, {Component} from 'react';
 import styles from './Project.module.css';
 
 class Project extends Component {
+    constructor(props) {
+        super(props);
+    }
+
     render() {
         return (
             <div>
-                <h3 className={styles.title}>Project Title</h3>
-                <p className={styles.para}>Project description...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h3 className={styles.title}>{this.props.title}</h3>
+                <img className={styles.screenshot} src={this.props.screenshot} alt={this.props.title + " Screenshot"}></img>
+                <p className={styles.para}>{this.props.description}</p>
                 <div className={styles.btnCont}>
                     <button className={styles.btn} type="button">
-                        <a href="#" target="_blank">Live Demo</a>
+                        <a href={this.props.liveLink} target="_blank" rel="noopener noreferrer">Live Demo</a>
                     </button>
                     <button className={styles.btn} type="button">
-                        <a href="#" target="_blank">GitHub Repo</a>
+                        <a href={this.props.gitHubLink} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
                     </button>
                 </div>
             </div>

@@ -16,3 +16,9 @@
     max-width: 600px;
     margin: 20px auto;
 }
+
+.screenshot {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}

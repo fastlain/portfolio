@@ -11,7 +11,7 @@ const projectdata = [
         },
         liveLink: "https://surveysaysgame.herokuapp.com/",
         gitHubLink: "https://github.com/fastlain/SurveySays",
-        screenshot: "../public/images/surveySays_square.png"
+        screenshot: "images/surveySays_square.png"
     },
     {
         title: "Clam Tides",
@@ -19,7 +19,7 @@ const projectdata = [
         technology: ["HTML5", "CSS3", "jQuery"],
         liveLink: "https://fastlain.github.io/ClamTides/",
         gitHubLink: "https://github.com/fastlain/ClamTides",
-        screenshot: "../public/images/clamTides_square.png"
+        screenshot: "images/clamTides_square.png"
     }
 ]
 
