@@ -4,7 +4,7 @@ import styles from './Contact.module.css';
 class Contact extends Component {
     render() {
         return (
-            <section>
+            <section id="contact">
                 <h2>CONTACT</h2>
                 <div className={styles.contact}>
                     <a href="mailto:michaeldallain@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>                

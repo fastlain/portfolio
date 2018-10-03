@@ -10,7 +10,7 @@ class ProjectsContainer extends Component {
         )
 
         return (
-            <section>
+            <section id="projects">
                 <h2>PROJECTS</h2>
                 {projects}
             </section>
