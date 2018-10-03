@@ -19,12 +19,13 @@ class Project extends Component {
                             {this.props.description}
                         </p>
                         <div className={styles.btnCont}>
-                            <button className={styles.btn} type="button">
-                                <a href={this.props.liveLink} target="_blank" rel="noopener noreferrer">Live Demo</a>
-                            </button>
-                            <button className={styles.btn} type="button">
-                                <a href={this.props.gitHubLink} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
-                            </button>
+                            <a href={this.props.liveLink} target="_blank" rel="noopener noreferrer">
+                                <button className={styles.btn} type="button">Live Demo</button>
+                            </a>
+                            <a href={this.props.gitHubLink} target="_blank" rel="noopener noreferrer">
+                                <button className={styles.btn} type="button">GitHub Repo</button>
+                            </a>
+                            
                         </div>
                     </div>
                 </div>
