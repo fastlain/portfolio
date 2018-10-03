@@ -5,9 +5,30 @@
     justify-content: center;
 }
 
+.mainHeading {
+    font-size: 5vw;
+}
+
+.subHeading {
+    margin: 1rem;
+    font-size: 2vw;
+}
+
 .separator {
     height: 2px;
     width: 100px;
     margin: 0 auto;
     background-color: black;
+}
+
+@media (max-width: 800px) {
+    .mainHeading {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .subHeading {
+        font-size: 20px;
+    }
 }

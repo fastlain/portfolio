@@ -6,16 +6,40 @@ html {
   box-sizing: inherit;
 }
 
+/***** Global Styles *****/
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Lora', serif;
   color: white;
   background: darkslategray;
 }
 
 h1, h2 {
+  font-family: 'PT Sans', sans-serif;
   text-align: center;
+  margin: 1rem;
+}
+
+h2 {
+    font-size: 3vw;
+}
+
+h3 {
+  margin: 1rem;
+  font-family: 'Lora', serif;
+  font-size: 2vw;
+}
+
+@media (max-width: 1200px) {
+    h2 {
+      font-size: 36px;
+    }
+
+    h3 {
+      font-size: 24px;
+  }
 }
 
 section {

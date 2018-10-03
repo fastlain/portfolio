@@ -18,6 +18,8 @@
 .navLink {
     color: white;
     text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
 }
 
 .navLink:hover {

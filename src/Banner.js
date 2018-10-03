@@ -5,9 +5,9 @@ class Banner extends Component {
     render() {
       return (
         <section className={styles.banner}>
-            <h1>Michael Allain</h1>
+            <h1 className={styles.mainHeading}>Michael Allain</h1>
             <div className={styles.separator}></div>
-            <h2>FULL STACK WEB DEVELOPER</h2>
+            <h2 className={styles.subHeading}>FULL STACK WEB DEVELOPER</h2>
         </section>
       );
     }
