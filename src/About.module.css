@@ -33,7 +33,7 @@
     margin: 10px auto;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
     .flexRow {
         display: flex;
         /* justify-content: space-between; */
