@@ -1,4 +1,4 @@
-// This file contains project information to be imported by React components 
+// This file contains about information to be imported by React components 
 
 const aboutdata = {
     description: [
