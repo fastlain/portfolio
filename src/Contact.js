@@ -16,19 +16,19 @@ class Contact extends Component {
                 <ul className={styles.contactList}>
                     <li className={styles.contact}>
                         <a className={styles.link} href={`mailto:${data.email}?subject=Reaching%20out%20from%20your%20portfolio`} target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon icon={faEnvelope} className={styles.icon}/>
+                            <FontAwesomeIcon icon={faEnvelope} fixedWidth className={styles.icon}/>
                             Email
                         </a>                
                     </li>
                     <li className={styles.contact}>
                         <a className={styles.link} href={data.linkedInLink} target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon icon={faLinkedin} className={styles.icon}/>
+                            <FontAwesomeIcon icon={faLinkedin} fixedWidth className={styles.icon}/>
                             LinkedIn
                         </a>                
                     </li>
                     <li className={styles.contact}>
                         <a className={styles.link} href={data.gitHubLink}target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon icon={faGithubSquare} className={styles.icon}/>
+                            <FontAwesomeIcon icon={faGithubSquare} fixedWidth className={styles.icon}/>
                             GitHub
                         </a>                
                     </li>
