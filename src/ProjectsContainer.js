@@ -6,7 +6,7 @@ class ProjectsContainer extends Component {
     render() {
 
         let projects = data.map((proj, i) =>
-            <Project key={i} title={proj.title} description={proj.description} liveLink={proj.liveLink} gitHubLink={proj.gitHubLink} screenshot={proj.screenshot} />
+            <Project key={i} {...proj}/>
         )
 
         return (

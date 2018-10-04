@@ -2,10 +2,6 @@ import React, {Component} from 'react';
 import styles from './Project.module.css';
 
 class Project extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <div className={styles.project}>
