@@ -53,6 +53,14 @@
     flex-direction: column;
 }
 
+.flexLeft {
+    order: 0;
+}
+
+.flexRight {
+    order: 1;
+}
+
 @media (min-width: 768px) {
     .flexRow {
         display: flex;

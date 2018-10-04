@@ -6,7 +6,7 @@ class ProjectsContainer extends Component {
     render() {
 
         let projects = data.map((proj, i) =>
-            <Project key={i} {...proj}/>
+            <Project key={i} order={i%2} {...proj}/>
         )
 
         return (

@@ -3,11 +3,21 @@ import styles from './Project.module.css';
 
 class Project extends Component {
     render() {
+        
+        let flexOrder;
+        if (this.props.order === 0) {
+            flexOrder = styles.flexLeft;
+        } else {
+            flexOrder = styles.flexRight;
+        }
+
+        console.log(flexOrder);
+        
         return (
             <div className={styles.project}>
                 <h3 className={styles.title}>{this.props.title}</h3>
                 <div className={styles.flexRow}>
-                    <div className={styles.imgContainer}>
+                    <div className={`${styles.imgContainer} ${flexOrder}`}>
                         <img className={styles.screenshot} src={this.props.screenshot} alt={this.props.title + " Screenshot"} />            
                     </div>
                     <div className={styles.flexCol}>
