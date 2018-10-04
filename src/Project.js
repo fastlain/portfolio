@@ -10,8 +10,6 @@ class Project extends Component {
         } else {
             flexOrder = styles.flexRight;
         }
-
-        console.log(flexOrder);
         
         return (
             <div className={styles.project}>
