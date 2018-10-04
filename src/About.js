@@ -15,6 +15,7 @@ class About extends Component {
                         <img className={styles.headshot} src={data.headshot} alt="Michael Allain headshot"/>
                     </div>
                     <div className={styles.flexCol}>
+                        <p className={styles.tagLine}>{data.tagline}</p>
                         {paragraphs}
                     </div>
                 </div>
