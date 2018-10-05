@@ -13,9 +13,9 @@ class About extends Component {
                 <div className={styles.flexRow}>
                     <div className={styles.imgContainer}>    
                         <img className={styles.headshot} src={data.headshot} alt="Michael Allain headshot"/>
+                        <p className={styles.tagLine}>{data.tagline}</p>
                     </div>
                     <div className={styles.flexCol}>
-                        <p className={styles.tagLine}>{data.tagline}</p>
                         {paragraphs}
                     </div>
                 </div>
