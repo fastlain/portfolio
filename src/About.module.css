@@ -28,7 +28,7 @@
 }
 
 .tagLine {
-    font-size: 2vw;
+    font-size: 3vw;
     color: tomato;
 }
 
@@ -49,13 +49,13 @@
     }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
     .tagLine {
-        font-size: 32px;
+        font-size: 36px;
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
     .tagLine {
         font-size: 20px
     }
