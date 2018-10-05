@@ -11,7 +11,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Lora', serif;
+  font-family: 'Raleway', sans-serif;
   color: white;
   background: darkslategray;
 }
@@ -22,7 +22,7 @@ section {
 }
 
 h1, h2 {
-  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
   text-align: center;
   margin: 1rem;
 }
@@ -33,7 +33,6 @@ h2 {
 
 h3 {
   margin: 1rem;
-  font-family: 'Lora', serif;
   font-size: 2vw;
 }
 
