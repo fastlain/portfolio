@@ -1,9 +1,11 @@
 .project {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .title {
     text-align: center;
+    color: tomato;
+    margin-bottom: 30px
 }
 
 .btnCont {
