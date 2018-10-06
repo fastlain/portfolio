@@ -9,8 +9,8 @@
 }
 
 .btnCont {
-    margin: 30px auto;
     text-align: center;
+    margin: 15px auto;
 }
 
 .btn {
@@ -27,9 +27,9 @@
 }
 
 .para {
-    width: 80%;
+    width: 100%;
     max-width: 600px;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 
 .imgContainer {
@@ -46,13 +46,16 @@
 }
 
 .flexRow {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .flexCol {
     display: flex;
     flex-direction: column;
+    width: 80%;
+    max-width: 450px;
+    margin: 0 auto;
 }
 
 .flexLeft {
@@ -63,9 +66,14 @@
     order: 1;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) {   
     .flexRow {
         display: flex;
+        padding: 0 50px;
+    }
+
+    .flexCol {
+        max-width: 700px;
     }
 
     .screenshot {
@@ -76,5 +84,9 @@
     .para {
         margin: 0 auto 0 0;
         width: 100%;
+    }
+
+    .btnCont {
+        margin: 30px auto;
     }
 }
