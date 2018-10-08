@@ -1,3 +1,7 @@
+.aboutSection {
+    overflow: hidden;
+}
+
 .imgContainer {
     display: flex;
     flex-direction: column;

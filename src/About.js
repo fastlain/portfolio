@@ -11,7 +11,7 @@ class About extends Component {
         let paragraphs = data.description.map((para, i) => <p key={i} className={styles.para}>{para}</p>);
 
         return (
-            <section id="about">
+            <section id="about" className={styles.aboutSection}>
                 <h2>ABOUT</h2>
                 <Fade right>
                     <div className={styles.flexRow}>
