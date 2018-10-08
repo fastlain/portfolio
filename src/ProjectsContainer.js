@@ -9,8 +9,8 @@ class ProjectsContainer extends Component {
         let projects = data.map((proj, i) => {
             let bounceside = i%2 === 0;
             return (
-                <Bounce left={bounceside} right={!bounceside}>
-                    <Project key={i} order={i%2} {...proj}/>
+                <Bounce left={bounceside} right={!bounceside} key={i}>
+                    <Project order={i%2} {...proj}/>
                 </Bounce>
             );
         });
