@@ -1,19 +1,23 @@
 import React, { Component } from 'react';
 import styles from './Banner.module.css';
-import Fade from 'react-reveal/Fade';
+import Bounce from 'react-reveal/Bounce';
+import Reveal from 'react-reveal/Reveal';
 
 class Banner extends Component {
     render() {
       return (
         <section className={styles.banner}>
-            <Fade bottom duration='1500'>
+            <Bounce left duration='1500'>
               <h1 className={styles.mainHeading}>Michael Allain</h1>
-            </Fade>
+            </Bounce>
             
-            <Fade duration='2000' delay='1500'>
+            <Reveal effect={styles.growSeparator}>
               <div className={styles.separator}></div>
+            </Reveal>
+            <Bounce right duration='1500'>
+              
               <h2 className={styles.subHeading}>FULL STACK WEB DEVELOPER</h2>
-            </Fade>
+            </Bounce>
         </section>
       );
     }

@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 0;
+    overflow: hidden;
 }
 
 .mainHeading {
@@ -17,12 +18,17 @@
 }
 
 .separator {
-    height: 2px;
-    width: 100px;
+    height: 4px;
+    width: 0px;
+    /* opacity: 0; */
     margin: 0 auto;
-    background-color: black;
+    background-color: skyblue;
+    transition: width 1.5s;
 }
 
+.growSeparator {
+    width: 150px;
+}
 @media (max-width: 800px) {
     .mainHeading {
         font-size: 40px;
