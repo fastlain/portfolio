@@ -16,14 +16,17 @@
 .btn {
     display: inline-block;
     margin: 0 15px;
-    background-color: black;
+    background-color: tomato;
     color: white;
+    font-weight: bold;
+    font-size: 1rem;
     cursor: pointer;
+    
 }
 
 .btn:hover {
     background-color: white;
-    color: black;
+    color: tomato;
 }
 
 .para {
