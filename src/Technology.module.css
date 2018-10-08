@@ -1,0 +1,34 @@
+.techHeading {
+    margin: 20px auto 10px;
+    text-align: center;
+}
+
+.icon {
+    margin: 0 10px;
+    color: tomato;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.catHeading {
+    color: skyblue;
+    margin: 10px auto;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+}
+
+.techItem {
+    list-style: none;
+}
+
+@media (max-width: 768px) {
+    .catGroup {
+        padding: 0 15px;
+    }
+}

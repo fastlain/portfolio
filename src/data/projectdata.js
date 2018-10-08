@@ -6,7 +6,7 @@ const projectdata = [
         description: "Survey Says uses the experimental \"Web Speech API\" to introduce voice-to-text to a fun and light-hearted game. Based on the ever-popular Family Feud game show, this responsive full-stack web application also incorporates user authentication, continuous integration & testing, and a Mongo database for storing questions/answers and user data.",
         technology: [
             {category: "Front End", techs: ["HTML5", "CSS3", "jQuery"]},
-            {category: "Back End", techs: ["Node", "Express","MongoDB", "Mocha/Chai testing"]},
+            {category: "Back End", techs: ["Node", "Express","MongoDB", "Mocha/Chai"]},
             {category: "Dev Ops", techs: ["Travis CI", "Heroku"]}
         ],
         liveLink: "https://surveysaysgame.herokuapp.com/",
