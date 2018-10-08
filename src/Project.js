@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
+import Technology from './Technology';
 import styles from './Project.module.css';
 
 class Project extends Component {
     render() {
         
+        // Project layout will alternate between screenshot on left vs right
         let flexOrder;
         if (this.props.order === 0) {
             flexOrder = styles.flexLeft;
@@ -22,6 +24,7 @@ class Project extends Component {
                         <p className={styles.para}>
                             {this.props.description}
                         </p>
+                        <Technology tech={this.props.technology}/>
                         <div className={styles.btnCont}>
                             <a href={this.props.liveLink} target="_blank" rel="noopener noreferrer">
                                 <button className={styles.btn} type="button">Live Demo</button>
