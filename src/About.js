@@ -16,7 +16,7 @@ class About extends Component {
                 <Fade right>
                     <div className={styles.flexRow}>
                         <div className={styles.imgContainer}>    
-                            <RubberBand delay='1000'>
+                            <RubberBand delay={1000}>
                                 <img className={styles.headshot} src={data.headshot} alt="Michael Allain headshot"/>
                             </RubberBand>
                             <p className={styles.tagLine}>{data.tagline}</p>
