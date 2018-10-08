@@ -5,6 +5,7 @@
     width: 100%;
     background-color: black;
     border-bottom: 2px solid black;
+    z-index: 1;
 }
 
 .flex {
