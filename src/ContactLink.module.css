@@ -11,16 +11,18 @@
 
 .linkText {
     position: relative;
+    padding-bottom: 3px;
+    display: inline-block;
 }
 
 .linkText:before {
     content: "";
     position: absolute;
-    left: 50%;
-    right: 50%;
+    left: 51%;
+    right: 51%;
     bottom: 0;
     background: skyblue;
-    height: 4px;
+    height: 3px;
     transition-property: left, right;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
