@@ -18,7 +18,7 @@ body {
 
 section {
   border-bottom: 2px solid black;
-  padding: 25px 0 50px;
+  padding: 25px 0;
 }
 
 h1, h2 {
@@ -33,7 +33,7 @@ h2 {
 
 h3 {
   margin: 1rem;
-  font-size: 2vw;
+  font-size: 30px;
 }
 
 button {
@@ -46,6 +46,11 @@ button {
   body {
     font-size: 2vw;
   }
+
+  h3 {
+      font-size: 4vw;
+  }
+
 }
 
 @media (min-width: 1000px) {
@@ -54,13 +59,15 @@ button {
   }
 }
 
+@media (min-width: 1200px) {
+  h3 {
+    font-size: 48px;
+  }
+}
+
 
 @media (max-width: 1200px) {  
     h2 {
       font-size: 36px;
     }
-
-    h3 {
-      font-size: 24px;
-  }
 }
