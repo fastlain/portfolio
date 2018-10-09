@@ -12,8 +12,8 @@
 }
 
 .headshot {
-    width: 100%;
-    max-width: 300px;
+    width: 80%;
+    max-width: 250px;
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
@@ -56,6 +56,11 @@
 
     .imgContainer {
         justify-content: center;
+    }
+
+    .headshot {
+        width: 100%;
+        max-width: 300px;
     }
 
     .tagLine {
