@@ -8,13 +8,13 @@ class Header extends Component {
 			<header className={styles.pageHeader}>
 				<nav className={styles.flex}>
 					<Link to="scrollAbout" smooth={true} duration={500}>
-						<a href='#about' className={styles.navLink}>ABOUT</a>
+						<span className={styles.navLink}>ABOUT</span>
 					</Link>
 					<Link to="scrollProjects" smooth={true} duration={500}>
-						<a href='#projects' className={styles.navLink}>PROJECTS</a>
+						<span className={styles.navLink}>PROJECTS</span>
 					</Link>
 					<Link to="scrollContact" smooth={true} duration={500}>
-						<a href='#contact' className={styles.navLink}>CONTACT</a>
+						<span className={styles.navLink}>CONTACT</span>
 					</Link>
 				</nav>
 			</header>

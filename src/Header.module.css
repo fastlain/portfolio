@@ -23,6 +23,7 @@
     font-size: 1vw;
     position: relative;
     padding: 3px 0 3px;
+    cursor: pointer;
 }
 
 .navLink:before {
