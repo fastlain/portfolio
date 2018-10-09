@@ -15,7 +15,7 @@ const projectdata = [
     },
     {
         title: "Clam Tides",
-        description: "A tide-finding application for clam diggers. Users can choose tide stations through a location-aware map interface and search for low tides with custom date ranges. This project helped solidify my understanding of core front-end web development technologies (HTML/CSS/JavaScript/jQuery). My goal was to learn integration of 3rd party APIs (Google Maps with Places library and NOAA CO-OPS [tides]) and JS libraries (Moment.js and Date Range Picker).",
+        description: "A tide-finding application for clam diggers. Users can choose tide stations through a location-aware map interface and search for low tides with custom date ranges. This project helped solidify my understanding of core front-end web development technologies (HTML, CSS, JavaScript, jQuery). My goal was to learn integration of 3rd party APIs (Google Maps with Places library and NOAA CO-OPS [tides]) and JS libraries (Moment.js and Date Range Picker).",
         technology: [
             {category: "Front End", techs: ["HTML5", "CSS3", "jQuery"]}
         ],
