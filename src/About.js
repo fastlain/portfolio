@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import styles from './About.module.css';
 import data from './data/aboutdata';
 import Fade from 'react-reveal/Fade';
-import RubberBand from 'react-reveal/RubberBand';
+// import Fade from 'react-reveal/Fade';
 
 
 class About extends Component {
@@ -16,9 +16,9 @@ class About extends Component {
                 <Fade right>
                     <div className={styles.flexRow}>
                         <div className={styles.imgContainer}>    
-                            <RubberBand delay={1000}>
+                            <Fade delay={1000}>
                                 <img className={styles.headshot} src={data.headshot} alt="Michael Allain headshot"/>
-                            </RubberBand>
+                            </Fade>
                             <p className={styles.tagLine}>{data.tagline}</p>
                         </div>
                         <div className={styles.flexCol}>
