@@ -16,6 +16,7 @@
 .btn {
     display: inline-block;
     margin: 0 5px;
+    padding: 10px 10px;
     background-color: tomato;
     color: white;
     font-weight: bold;
@@ -95,6 +96,5 @@
 
     .btn {
         margin: 0 15px;
-        padding: 10px 10px;
     }
 }
