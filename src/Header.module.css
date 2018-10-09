@@ -17,14 +17,30 @@
 }
 
 .navLink {
-    color: white;
+    color: skyblue;
     text-decoration: none;
     font-weight: bold;
     font-size: 1vw;
+    position: relative;
+    padding: 3px 0 3px;
 }
 
-.navLink:hover {
-    text-decoration: underline;
+.navLink:before {
+    content: "";
+    position: absolute;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: skyblue;
+    height: 3px;
+    transition-property: left, right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.navLink:hover:before {
+    left: 0;
+    right: 0;
 }
 
 @media (max-width: 1600px) {
