@@ -5,12 +5,15 @@ import About from './About';
 import ProjectsContainer from './ProjectsContainer';
 import Contact from './Contact';
 import { Element } from 'react-scroll';
+import Particles from 'react-particles-js';
+import particleparams from './particlesConfig/particlesConfig7.json'
 
 class App extends Component {
 	render() {
 		return (
-			<div >
+			<div>
 				<Header />
+				<Particles width="100%" height="100vh" params={particleparams} style={{position: "absolute"}}/>
 				<Banner />
 				<Element name="scrollAbout">
 					<About />
