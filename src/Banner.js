@@ -7,17 +7,19 @@ class Banner extends Component {
     render() {
       return (
         <section className={styles.banner}>
-            <Bounce left duration={1500}>
-              <h1 className={styles.mainHeading}>Michael Allain</h1>
-            </Bounce>
-            
-            <Reveal effect={styles.growSeparator}>
-              <div className={styles.separator}></div>
-            </Reveal>
-            <Bounce right duration={1500}>
+            <div className={styles.wrapper}>
+              <Bounce left duration={1500}>
+                <h1 className={styles.mainHeading}>Michael Allain</h1>
+              </Bounce>
               
-              <h2 className={styles.subHeading}>FULL STACK WEB DEVELOPER</h2>
-            </Bounce>
+              <Reveal effect={styles.growSeparator}>
+                <div className={styles.separator}></div>
+              </Reveal>
+              <Bounce right duration={1500}>
+                
+                <h2 className={styles.subHeading}>FULL STACK WEB DEVELOPER</h2>
+              </Bounce>
+            </div>
         </section>
       );
     }
