@@ -6,7 +6,7 @@ import ProjectsContainer from './ProjectsContainer';
 import Contact from './Contact';
 import { Element } from 'react-scroll';
 import Particles from 'react-particles-js';
-import particleparams from './particlesConfig/particlesConfig7.json'
+import particleparams from './particlesConfig/particlesConfig4.json'
 
 class App extends Component {
 	render() {
