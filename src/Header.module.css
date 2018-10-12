@@ -5,7 +5,7 @@
     width: 100%;
     background-color: black;
     border-bottom: 2px solid black;
-    z-index: 1;
+    z-index: 100;
 }
 
 .flex {
@@ -20,10 +20,11 @@
     color: skyblue;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1vw;
+    font-size: 1.5vw;
     position: relative;
     padding: 3px 0 3px;
     cursor: pointer;
+    display: block;
 }
 
 .navLink:before {
@@ -44,8 +45,27 @@
     right: 0;
 }
 
-@media (max-width: 1600px) {
+@media (min-width: 1600px) {
+    .navLink {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1333px) {
+    .navLink {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 400px) {
     .navLink {
         font-size: 16px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .navLink {
+        margin: 10px 0;
     }
 }
