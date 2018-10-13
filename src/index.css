@@ -71,3 +71,9 @@ button {
       font-size: 36px;
     }
 }
+
+@media (min-width: 1600px) {  
+  h2 {
+    font-size: 48px;
+  }
+}
