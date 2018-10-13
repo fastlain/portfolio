@@ -16,7 +16,9 @@ const ProjectsContainer = () => {
     return (
         <section id="projects" style={{overflow: 'hidden'}}>
             <h2>PROJECTS</h2>
-            {projects}
+            <div style={{display: 'flex', flexDirection: 'column', alignItems: "center"}}>
+                {projects}
+            </div>
         </section>
     );
 }
