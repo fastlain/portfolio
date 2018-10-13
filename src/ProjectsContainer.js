@@ -2,6 +2,7 @@ import React from 'react';
 import Project from './Project';
 import data from './data/projectdata';
 import Bounce from 'react-reveal/Bounce';
+import styles from './ProjectsContainer.module.css';
 
 const ProjectsContainer = () => {
     let projects = data.map((proj, i) => {
@@ -14,9 +15,9 @@ const ProjectsContainer = () => {
     });
 
     return (
-        <section id="projects" style={{overflow: 'hidden'}}>
+        <section id="projects" className={styles.container}>
             <h2>PROJECTS</h2>
-            <div style={{display: 'flex', flexDirection: 'column', alignItems: "center"}}>
+            <div className={styles.wrapper}>
                 {projects}
             </div>
         </section>
