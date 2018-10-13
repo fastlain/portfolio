@@ -7,13 +7,13 @@ class Header extends Component {
 		return (
 			<header className={styles.pageHeader}>
 				<nav className={styles.flex}>
-					<Link to="scrollAbout" smooth={true} duration={500}>
+					<Link to="scrollAbout" smooth={true} duration={500} offset={-50}>
 						<span className={styles.navLink}>ABOUT</span>
 					</Link>
-					<Link to="scrollProjects" smooth={true} duration={500}>
+					<Link to="scrollProjects" smooth={true} duration={500} offset={-50}>
 						<span className={styles.navLink}>PROJECTS</span>
 					</Link>
-					<Link to="scrollContact" smooth={true} duration={500}>
+					<Link to="scrollContact" smooth={true} duration={500} offset={-50}>
 						<span className={styles.navLink}>CONTACT</span>
 					</Link>
 				</nav>
