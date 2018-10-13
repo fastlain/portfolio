@@ -4,7 +4,7 @@ import data from './data/aboutdata';
 import Fade from 'react-reveal/Fade';
 
 const About = () => {
-    let paragraphs = data.description.map((para, i) => <p key={i} className={styles.para}>{para}</p>);
+    let paragraphs = data.description.map((para, i) => <p key={i} className={styles.para} dangerouslySetInnerHTML={{__html: para}}></p>);
 
     return (
         <section id="about" className={styles.aboutSection}>

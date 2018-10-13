@@ -35,13 +35,17 @@
     font-size: 3vw;
     color: tomato;
     width: 250px;
-    /* align-self: flex-start; */
 }
 
 .para {
     width: 100%;
     max-width: 600px;
     margin: 10px auto;
+}
+
+.para span {
+    color: skyblue;
+    font-weight: bold;    
 }
 
 @media (min-width: 768px) {
