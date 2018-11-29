@@ -15,7 +15,7 @@ Learn about Michael and explore his web development projects!
         * [React Particles JS](https://github.com/Wufe/react-particles-js#readme) - particle animation
         * [React Font Awesome](https://github.com/FortAwesome/react-fontawesome) - SVG icon library
 * HTML5
-* CSS3
+* CSS3 (with CSS Modules)
 
 ### Production
 * [Heroku](https://www.heroku.com/) Cloud Application Platform
