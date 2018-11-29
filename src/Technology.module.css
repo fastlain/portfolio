@@ -13,6 +13,10 @@
     justify-content: space-around;
 }
 
+.column {
+    padding: 0 0.4rem;
+}
+
 .catHeading {
     color: skyblue;
     margin: 10px auto;
@@ -25,10 +29,4 @@
 
 .techItem {
     list-style: none;
-}
-
-@media (max-width: 768px) {
-    .catGroup {
-        padding: 0 15px;
-    }
 }
