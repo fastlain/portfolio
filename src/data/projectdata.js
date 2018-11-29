@@ -9,7 +9,7 @@ const projectdata = [
             { category: "Back End", techs: ["Node", "Express", "MongoDB", "Mocha/Chai"] },
             { category: "Dev Ops", techs: ["Travis CI", "Heroku"] }
         ],
-        liveLink: "http://www.michaelallain.com/",
+        liveLink: "https://developeer.herokuapp.com/#/",
         gitHubLink: "https://github.com/fastlain/developeer-client",
         screenshot: "images/developeer_square.png"
     },
