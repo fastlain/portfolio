@@ -20,11 +20,11 @@ const Project = (props) => {
                     <p className={styles.para} dangerouslySetInnerHTML={{ __html: props.description }}></p>
                     <Technology tech={props.technology} />
                     <div className={styles.btnCont}>
-                        <a href={props.liveLink} target="_blank" rel="noopener noreferrer">
-                            <button className={styles.btn} type="button">LIVE DEMO</button>
+                        <a href={props.liveLink} target="_blank" rel="noopener noreferrer" className={styles.btn}>
+                            LIVE DEMO
                         </a>
-                        <a href={props.gitHubLink} target="_blank" rel="noopener noreferrer">
-                            <button className={styles.btn} type="button">GITHUB REPO</button>
+                        <a href={props.gitHubLink} target="_blank" rel="noopener noreferrer" className={styles.btn}>
+                            GITHUB REPO
                         </a>
                     </div>
                 </div>

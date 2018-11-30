@@ -17,6 +17,9 @@
     background: black;
     cursor: pointer;
     font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 .topButton:hover {
