@@ -4,6 +4,11 @@ Learn about Michael and explore his web development projects!
 
 ### **_[Live link](http://www.michaelallain.com/)_**
 
+## Screenshots
+![Portfolio](/public/images/portfolio.png)
+
+![About and Projects](/public/images/portfolio_about.png)
+
 ## Technology
 
 ### Front End
