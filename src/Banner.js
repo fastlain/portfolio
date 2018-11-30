@@ -23,7 +23,7 @@ const Banner = () => {
                 </Bounce>
             </div>
             <div className={styles.downBtn} >
-                <Link to="scrollAbout" smooth={true} duration={500} offset={-25} tabIndex={4}>
+                <Link to="scrollAbout" smooth={true} duration={500} offset={-25} tabIndex={0}>
                     <FontAwesomeIcon icon={faChevronDown} className={styles.downBtnIcon} title={`Scroll to "About Section"`} />
                 </Link>
             </div>

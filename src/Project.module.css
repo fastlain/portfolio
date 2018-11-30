@@ -54,8 +54,8 @@
     display: inline-block;
     margin: 0 5px;
     padding: 10px 10px;
-    background-color: tomato;
-    color: white;
+    background-color: skyblue;
+    color: black;
     font-weight: bold;
     font-size: 0.8rem;
     cursor: pointer;
@@ -65,8 +65,8 @@
 }
 
 .btn:hover {
-    background-color: white;
-    color: tomato;
+    background-color: black;
+    color: skyblue;
 }
 
 @media (min-width: 400px) {   

@@ -37,7 +37,7 @@ class App extends Component {
         particleparams.particles.number.value = Math.floor(numParticles);
 
         return (
-            <div>
+            <main>
                 <Header />
                 <Particles width="100%" height="100vh" params={particleparams} style={{ position: "absolute" }} />
                 <Banner />
@@ -50,7 +50,7 @@ class App extends Component {
                 <Element name="scrollContact">
                     <Contact />
                 </Element>
-            </div>
+            </main>
         );
     }
 }
