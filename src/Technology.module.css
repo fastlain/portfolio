@@ -1,5 +1,5 @@
 .techHeading {
-    margin: 10px auto 10px;
+    margin: 0 auto 0.4rem;
     text-align: center;
 }
 
@@ -19,6 +19,7 @@
 
 .catHeading {
     color: skyblue;
+    font-size: 1rem;
     margin: 10px auto;
 }
 
@@ -29,4 +30,17 @@
 
 .techItem {
     list-style: none;
+    font-size: 0.85rem;
+}
+
+@media (min-width: 400px) {
+    .techItem {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .techHeading {
+        margin-top: 0.6rem;
+    }
 }

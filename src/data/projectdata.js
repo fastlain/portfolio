@@ -3,11 +3,11 @@
 const projectdata = [
     {
         title: "DeveloPeer",
-        description: "This full-stack web app allows developers to seamlessly give and receive feedback on their projects. Users create survey forms and use credits (earned by giving feedback) to ask for reviews. They may also freely share the form link outside the site. DeveloPeer was built with React/Redux and uses an API built with Node/Express/MongoDB.",
+        description: "This full-stack web app allows developers to seamlessly give and receive feedback on their projects. Users create survey forms and use credits (earned by giving feedback) to ask for reviews. They may also freely share the form link outside the site. DeveloPeer was built with React/&#8203;Redux and uses an API built with Node/&#8203;Express/&#8203;MongoDB.",
         technology: [
-            { category: "Front End", techs: ["React", "Redux", "React Router", "Enzyme/Jest", "CSS Modules"] },
-            { category: "Back End", techs: ["Node", "Express", "MongoDB", "Mocha/Chai"] },
-            { category: "Dev Ops", techs: ["Travis CI", "Heroku"] }
+            { category: "Front&nbsp;End", techs: ["React", "Redux", "React Router", "Enzyme/Jest", "CSS Modules"] },
+            { category: "Back&nbsp;End", techs: ["Node", "Express", "MongoDB", "Mocha/Chai"] },
+            { category: "Dev&nbsp;Ops", techs: ["Travis CI", "Heroku"] }
         ],
         liveLink: "https://developeer.herokuapp.com/#/",
         gitHubLink: "https://github.com/fastlain/developeer-client",
@@ -15,11 +15,11 @@ const projectdata = [
     },
     {
         title: "Survey Says",
-        description: "Survey Says uses the experimental \"Web Speech API\" to introduce voice-to-text to a fun and light-hearted game. Based on the ever-popular Family Feud game show, this responsive full-stack web app also incorporates user authentication, continuous integration & testing, and a Mongo database for storing questions/answers and user data.",
+        description: "Survey Says uses the experimental \"Web Speech API\" to introduce voice-to-text to a fun and light-hearted game. Based on the ever-popular Family Feud game show, this responsive full-stack web app also incorporates user authentication, continuous integration & testing, and a Mongo database for storing questions/&#8203;answers and user data.",
         technology: [
-            { category: "Front End", techs: ["HTML5", "CSS3", "jQuery"] },
-            { category: "Back End", techs: ["Node", "Express", "MongoDB", "Mocha/Chai"] },
-            { category: "Dev Ops", techs: ["Travis CI", "Heroku"] }
+            { category: "Front&nbsp;End", techs: ["HTML5", "CSS3", "jQuery"] },
+            { category: "Back&nbsp;End", techs: ["Node", "Express", "MongoDB", "Mocha/Chai"] },
+            { category: "Dev&nbsp;Ops", techs: ["Travis CI", "Heroku"] }
         ],
         liveLink: "https://surveysaysgame.herokuapp.com/",
         gitHubLink: "https://github.com/fastlain/SurveySays",

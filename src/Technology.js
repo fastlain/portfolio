@@ -8,7 +8,7 @@ const Technology = ({ tech }) => {
     let techdata = tech.map(techGroup => {
         return (
             <div className={styles.column} key={techGroup.category}>
-                {useHeadings ? <h5 className={styles.catHeading}>{techGroup.category}</h5> : null}
+                {useHeadings ? <h5 className={styles.catHeading} dangerouslySetInnerHTML={{ __html: techGroup.category }}></h5> : null}
                 <ul className={styles.list}>
                     {techGroup.techs.map(tech => <li className={styles.techItem} key={tech}>{tech}</li>)}
                 </ul>

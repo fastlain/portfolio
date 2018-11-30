@@ -36,11 +36,6 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
-h3 {
-  margin: 1rem;
-  font-size: 30px;
-}
-
 button {
   border: none;
   padding: 10px 20px;
@@ -51,22 +46,11 @@ button {
   body {
     font-size: 2vw;
   }
-
-  h3 {
-      font-size: 4vw;
-  }
-
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
   body {
-    font-size: 20px;
-  }
-}
-
-@media (min-width: 1200px) {
-  h3 {
-    font-size: 48px;
+    font-size: 18px;
   }
 }
 
