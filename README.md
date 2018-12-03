@@ -2,7 +2,7 @@
 
 Learn about Michael and explore his web development projects!
 
-### **_[Live link](http://www.michaelallain.com/)_**
+### **_[Live link](https://www.michaelallain.com/)_**
 
 ## Screenshots
 ![Portfolio](/public/images/portfolio.png)
