@@ -19,7 +19,7 @@ const Banner = () => {
                 </Reveal>
 
                 <Bounce right duration={1500}>
-                    <h2 className={styles.subHeading}>FULL STACK WEB DEVELOPER</h2>
+                    <h2 className={styles.subHeading}>FULL STACK DEVELOPER</h2>
                 </Bounce>
             </div>
             <div className={styles.downBtn} >

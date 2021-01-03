@@ -1,6 +1,6 @@
 # Portfolio
 
-Learn about Michael and explore his web development projects!
+Learn about Michael and explore his development projects!
 
 ### **_[Live link](https://www.michaelallain.com/)_**
 
