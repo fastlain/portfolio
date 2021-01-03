@@ -9,7 +9,7 @@ const ProjectsContainer = () => {
             <h2>PROJECTS</h2>
             <div className={styles.wrapper}>
                 {data.map((proj, i) => {
-                    return <Project order={i%2} {...proj}/>
+                    return <Project order={i%2} {...proj} key={proj.title}/>
                 })}
             </div>
         </section>
