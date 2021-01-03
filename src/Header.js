@@ -15,6 +15,7 @@ const Header = () => {
                 <Link to="scrollContact" smooth={true} duration={500} tabIndex={0}>
                     <span className={styles.navLink}>CONTACT</span>
                 </Link>
+                <a href="/resume.pdf" className={styles.navLink}>RESUME</a>
             </nav>
         </header>
     );
