@@ -20,7 +20,7 @@
     color: skyblue;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.5vw;
+    font-size: 20px;
     position: relative;
     padding: 3px 0 3px;
     cursor: pointer;
@@ -51,21 +51,14 @@
     }
 }
 
-@media (max-width: 1333px) {
-    .navLink {
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 400px) {
+@media (max-width: 768px) {
     .navLink {
         font-size: 16px;
     }
 }
 
-
-@media (max-width: 768px) {
+@media (max-width: 400px) {
     .navLink {
-        margin: 10px 0;
+        font-size: 14px;
     }
 }
